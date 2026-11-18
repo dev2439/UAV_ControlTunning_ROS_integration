@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>uart_pid_bridge</name>
+  <version>0.1.0</version>
+  <description>ROS 2 UART bridge for UAV telemetry monitoring and runtime PID tuning.</description>
+  <maintainer email="replace_with_your_email@example.com">Cristian Castro Lagos</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>python3-serial</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
